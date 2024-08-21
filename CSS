@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:#4B0082; 
+    align-items: center;
+    padding:2px;
+    text-align:center;
+   
+}
+body{
+
+    text-align: center;
+    background-color:#D8BFD8;
+}
+
+
+.foto-container{
+    margin: 20px; 
+    max-width:100%;
+    height:auto;
+    border:1px;
+}
+.foto-texto{
+   
+    margin-top:10px;
+    font-size:1.3rem;
+    line-height: 2rem;
+    max-width: 50rem;
+    margin: auto;
+
+}
+
+.imagem-container{
+    margin:20px;
+     max-width:100%;
+    height:auto;
+    border:1px;
+}
+.imagem-texto{
+    margin-top:10px;
+    font-size:1.3rem;
+    line-height: 2rem; 
+    max-width: 50rem;
+    margin: auto;
+    
+}
+
+.intro{
+    background-color:#4B0082;
+    text-align:center;
+    padding: 5rem 0;
+    margin:20px;
+}
+.intro .box{
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.intro .title{
+    font-weight:bold;
+    font-size: 2.5rem;
+    margin-bottom:3rem;
+}
+.intro .subtitle{
+    font-size: 1.8rem;
+    line-height: 3rem; 
+}
+.botão{
+    background-color: #FF4500; /* Cor de fundo */
+    border: none; /* Remove a borda padrão */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno (topo e laterais) */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove a decoração padrão do texto */
+    display: inline-block; /* Permite definir largura e altura */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem ao redor do botão */
+    cursor: pointer; /* Altera o cursor quando sobre o botão */
+}
+
+
