@@ -1,29 +1,32 @@
 *{
-    margin:0;
+    margin:0; /* Para centralizar a página */
     padding:0;
 }
 
 header{
-    background-color:#4B0082; 
-    align-items: center;
-    padding:2px;
-    text-align:center;
+    background-color:#9932CC; /* Essa parte é para estilizar o cabeçalho, cor de fundo */
+    align-items: center;    /* Alinhar a logo no centro */
+    padding:2px;          /* Deixar a borda do cabeçalho na espessura que você deseja */
+    
    
 }
-body{
+body{ /* Estilização do corpo da página */
 
-    text-align: center;
-    background-color:#D8BFD8;
+    text-align: center; 
+    background-image: url('fundo.png');
+    background-repeat: no-repeat;
+    background-size:2000px;
+    
 }
 
 
-.foto-container{
+.foto-container{ /* Estilização da foto de Desenvolvimento de Sistemas */
     margin: 20px; 
     max-width:100%;
     height:auto;
     border:1px;
 }
-.foto-texto{
+.foto-texto{  /* Estilização do texto de Desenvolvimento de Sistemas */
    
     margin-top:10px;
     font-size:1.3rem;
@@ -32,14 +35,17 @@ body{
     margin: auto;
 
 }
-
-.imagem-container{
+h2{
+    color: #4B0082; /* Estilização dos títulos */
+    
+}
+.imagem-container{/* Estilização da foto de Enfermagem */
     margin:20px;
      max-width:100%;
     height:auto;
     border:1px;
 }
-.imagem-texto{
+.imagem-texto{ /* Estilização do texto de Enfermagem */
     margin-top:10px;
     font-size:1.3rem;
     line-height: 2rem; 
@@ -49,27 +55,30 @@ body{
 }
 
 .intro{
-    background-color:#4B0082;
+    background-color:#9932CC; /* Essa parte corresponde a caixa no final do site, nesse bloco foi feita a estilização dela toda */ 
     text-align:center;
     padding: 5rem 0;
     margin:20px;
-}
-.intro .box{
+}  
+.intro .box{ /* Aqui é exclusivo para que a letra da caixa fique toda centralizada dentro dela */
+ 
     max-width: 50rem;
     margin: auto;
     padding: 1rem;
 }
 
-.intro .title{
+.intro .title{ /* Estilização do título da caixa */
     font-weight:bold;
     font-size: 2.5rem;
     margin-bottom:3rem;
+    color: #ffffff;
 }
-.intro .subtitle{
+.intro .subtitle{ /* Estilização do subtítulo da caixa */
     font-size: 1.8rem;
     line-height: 3rem; 
+    color:#ffff;
 }
-.botão{
+.botão{ /*Estilização dos botões */
     background-color: #FF4500; /* Cor de fundo */
     border: none; /* Remove a borda padrão */
     color: white; /* Cor do texto */
@@ -81,5 +90,6 @@ body{
     margin: 4px 2px; /* Margem ao redor do botão */
     cursor: pointer; /* Altera o cursor quando sobre o botão */
 }
+
 
 
